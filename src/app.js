@@ -67,7 +67,7 @@ const commonApiV1 = require("./apis/v1/commonIndex");
 app.use("/api/v1", commonApiV1);
 
 app.get("/", async (req, res) => {
-  return res.status(200).send({ message: "Welcome to Knowledge Temple API." });
+  return res.status(200).send({ message: "Welcome to Knowledge Temple." });
 });
 
 // handle undefined Routes
