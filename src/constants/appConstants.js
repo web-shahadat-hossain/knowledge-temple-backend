@@ -17,7 +17,7 @@ const appConstants = {
   SUCCESS: "Success",
   FAILED: "Failed",
   EARN_POINTS: 5,
-  BASE_URL: process.env.BASE_URL,
+  BASE_URL: "https://admin.knowledgetemple.in",
 };
 
 module.exports = appConstants;
